@@ -1,6 +1,7 @@
 body{
   background-color: #292929;
   color: white;
+  height: 100%
 }
 
 .homeMsg{
@@ -23,6 +24,20 @@ body{
 }
 
 .chat{
-  width: 315px;
-  height: 700px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+}
+
+.none{
+  display: none;
+}
+
+#chatbox {
+    float: right;
+    width: 320px;
+    height: 100%;
+    margin: 0px;
+    margin-left: -100px;
+    padding: 0;
 }
